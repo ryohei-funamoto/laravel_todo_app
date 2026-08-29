@@ -4,8 +4,8 @@
 
 ## 1. マイグレーション
 
-- [ ] `php artisan make:migration create_todos_table` で生成
-- [ ] `title`(string), `completed`(boolean, default false), timestamps を定義
+- [x] `php artisan make:migration create_todos_table` で生成
+- [x] `title`(string), `completed`(boolean, default false), timestamps を定義
 
 ```php
 Schema::create('todos', function (Blueprint $table) {

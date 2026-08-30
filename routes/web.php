@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\TodoController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
+Route::patch('todos/{todo}/toggle', [TodoController::class, 'toggle'])->name('todos.toggle');
+Route::resource('todos', TodoController::class)->except('show');

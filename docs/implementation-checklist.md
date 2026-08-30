@@ -18,9 +18,9 @@ Schema::create('todos', function (Blueprint $table) {
 
 ## 2. モデル
 
-- [ ] `app/Models/Todo.php` を作成（`User.php` と同じ属性ベーススタイル）
-- [ ] `#[Fillable(['title', 'completed'])]`
-- [ ] `casts()` で `completed` を `boolean` にキャスト
+- [x] `app/Models/Todo.php` を作成（`User.php` と同じ属性ベーススタイル）
+- [x] `#[Fillable(['title', 'completed'])]`
+- [x] `casts()` で `completed` を `boolean` にキャスト
 
 ## 3. ファクトリ
 

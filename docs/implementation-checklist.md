@@ -30,8 +30,8 @@ Schema::create('todos', function (Blueprint $table) {
 
 ## 4. ルーティング
 
-- [ ] `routes/web.php` に `Route::resource('todos', TodoController::class)->except('show')` を追加
-- [ ] `PATCH todos/{todo}/toggle` を `todos.toggle` として追加
+- [x] `routes/web.php` に `Route::resource('todos', TodoController::class)->except('show')` を追加
+- [x] `PATCH todos/{todo}/toggle` を `todos.toggle` として追加
 
 ## 5. コントローラ
 

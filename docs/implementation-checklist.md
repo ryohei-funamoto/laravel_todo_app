@@ -24,9 +24,9 @@ Schema::create('todos', function (Blueprint $table) {
 
 ## 3. ファクトリ
 
-- [ ] `database/factories/TodoFactory.php` を作成
-- [ ] `definition()`: `title` はダミー文, `completed` は `false`
-- [ ] `completed()` ステートを追加（完了済みTodoを簡単に作れるように）
+- [x] `database/factories/TodoFactory.php` を作成
+- [x] `definition()`: `title` はダミー文, `completed` は `false`
+- [x] `completed()` ステートを追加（完了済みTodoを簡単に作れるように）
 
 ## 4. ルーティング
 

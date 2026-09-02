@@ -35,12 +35,12 @@ Schema::create('todos', function (Blueprint $table) {
 
 ## 5. コントローラ
 
-- [ ] `app/Http/Controllers/TodoController.php` を作成
-- [ ] `index()` — `orderByDesc('created_at')->orderByDesc('id')` で一覧取得
-- [ ] `create()` / `store()` — インラインバリデーション（`title required|string|max:255`）＋作成
-- [ ] `edit()` / `update()` — 暗黙のルートモデルバインディング＋タイトル更新
-- [ ] `destroy()` — 削除
-- [ ] `toggle()` — `completed` を反転
+- [x] `app/Http/Controllers/TodoController.php` を作成
+- [x] `index()` — `orderByDesc('created_at')->orderByDesc('id')` で一覧取得
+- [x] `create()` / `store()` — インラインバリデーション（`title required|string|max:255`）＋作成
+- [x] `edit()` / `update()` — 暗黙のルートモデルバインディング＋タイトル更新
+- [x] `destroy()` — 削除
+- [x] `toggle()` — `completed` を反転
 
 ## 6. Bladeビュー
 

@@ -44,11 +44,11 @@ Schema::create('todos', function (Blueprint $table) {
 
 ## 6. Bladeビュー
 
-- [ ] `resources/views/layouts/app.blade.php`（共通レイアウト、`@vite`読み込み、フラッシュメッセージ表示）
-- [ ] `resources/views/todos/_form.blade.php`（title入力＋バリデーションエラー表示の共有パーシャル）
-- [ ] `resources/views/todos/create.blade.php`
-- [ ] `resources/views/todos/edit.blade.php`
-- [ ] `resources/views/todos/index.blade.php`（一覧・完了/未完了を同一リストに表示し取り消し線で区別・トグル/編集/削除の各インラインフォーム）
+- [x] `resources/views/layouts/app.blade.php`（共通レイアウト、`@vite`読み込み、フラッシュメッセージ表示）
+- [x] `resources/views/todos/_form.blade.php`（title入力＋バリデーションエラー表示の共有パーシャル）
+- [x] `resources/views/todos/create.blade.php`
+- [x] `resources/views/todos/edit.blade.php`
+- [x] `resources/views/todos/index.blade.php`（一覧・完了/未完了を同一リストに表示し取り消し線で区別・トグル/編集/削除の各インラインフォーム）
 
 ## 7. フィーチャーテスト
 
@@ -69,8 +69,8 @@ Schema::create('todos', function (Blueprint $table) {
 
 - [ ] `php artisan test --filter=TodoControllerTest` が全件パス
 - [ ] `vendor/bin/pint --dirty --format agent` でフォーマット
-- [ ] ブラウザで `/todos` の一覧・作成・編集・削除・完了トグル・バリデーションエラーの挙動を確認
-- [ ] `npm run dev` または `npm run build` でTailwindスタイルが反映されていることを確認
+- [x] ブラウザで `/todos` の一覧・作成・編集・削除・完了トグル・バリデーションエラーの挙動を確認
+- [x] `npm run dev` または `npm run build` でTailwindスタイルが反映されていることを確認
 
 ## 対象ファイル一覧
 

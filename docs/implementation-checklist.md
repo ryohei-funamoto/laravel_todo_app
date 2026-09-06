@@ -52,23 +52,23 @@ Schema::create('todos', function (Blueprint $table) {
 
 ## 7. フィーチャーテスト
 
-- [ ] `tests/Feature/TodoControllerTest.php` を作成（`LazilyRefreshDatabase` 使用）
-- [ ] `test_index_displays_todos_ordered_newest_first`
-- [ ] `test_index_displays_completed_and_incomplete_todos_together`
-- [ ] `test_create_page_renders_successfully`
-- [ ] `test_valid_title_creates_todo_and_redirects`
-- [ ] `test_missing_title_fails_validation_on_store`
-- [ ] `test_edit_page_renders_successfully`
-- [ ] `test_valid_title_updates_todo_and_redirects`
-- [ ] `test_missing_title_fails_validation_on_update`
-- [ ] `test_destroy_deletes_todo_and_redirects`
-- [ ] `test_toggling_incomplete_todo_marks_it_completed`
-- [ ] `test_toggling_completed_todo_marks_it_incomplete`
+- [x] `tests/Feature/TodoControllerTest.php` を作成（`LazilyRefreshDatabase` 使用）
+- [x] `test_index_displays_todos_ordered_newest_first`
+- [x] `test_index_displays_completed_and_incomplete_todos_together`
+- [x] `test_create_page_renders_successfully`
+- [x] `test_valid_title_creates_todo_and_redirects`
+- [x] `test_missing_title_fails_validation_on_store`
+- [x] `test_edit_page_renders_successfully`
+- [x] `test_valid_title_updates_todo_and_redirects`
+- [x] `test_missing_title_fails_validation_on_update`
+- [x] `test_destroy_deletes_todo_and_redirects`
+- [x] `test_toggling_incomplete_todo_marks_it_completed`
+- [x] `test_toggling_completed_todo_marks_it_incomplete`
 
 ## 8. 検証
 
-- [ ] `php artisan test --filter=TodoControllerTest` が全件パス
-- [ ] `vendor/bin/pint --dirty --format agent` でフォーマット
+- [x] `php artisan test --filter=TodoControllerTest` が全件パス
+- [x] `vendor/bin/pint --dirty --format agent` でフォーマット
 - [x] ブラウザで `/todos` の一覧・作成・編集・削除・完了トグル・バリデーションエラーの挙動を確認
 - [x] `npm run dev` または `npm run build` でTailwindスタイルが反映されていることを確認
 
